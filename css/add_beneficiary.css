@@ -1,0 +1,30 @@
+.add_beneficiary_container {
+  background-color: #c5d9e2;
+  width: 30%;
+  margin: 5% auto;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.add_beneficiary_container input,
+select {
+  width: 75%;
+  height: 7.9%;
+  padding: 10px;
+  margin: 1.5%;
+  margin-left: 12%;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  color: rgb(117, 117, 117);
+}
+
+.add_beneficiary_container input[type="submit"] {
+  color: white;
+  font-size: 24px;
+  background-color: #083CA2;
+  border-radius: 10px;
+  border: 0px;
+}

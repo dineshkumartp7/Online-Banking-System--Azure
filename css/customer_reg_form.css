@@ -1,0 +1,86 @@
+::-webkit-input-placeholder {
+  font-size: 2.1vh;
+  /* //font-family:verdana; */
+}
+
+.container_regfrm_container_parent h3 {
+  text-align: center;
+  border: 1px solid #2c4e8680;
+  background-color: #083CA2;
+  font-size: 3.5vh;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 15px;
+  width: 30%;
+  margin: 2% auto;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+}
+
+.container_regfrm_container_parent_child {
+  border: 1px solid white;
+  padding: 2%;
+  margin: 5% auto;
+  background-color: #c5d9e2;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(44, 78, 134, 0.5);
+  border-radius: 4px;
+  width: 80%;
+  /* // border-radius: 15px; */
+}
+
+.container_regfrm_container_parent_child input[type="text"],
+input[type="date"],
+select {
+  width: 20%;
+  padding: 0.5%;
+  margin: 2%;
+  color: rgb(117, 117, 117);
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 2.1vh;
+}
+
+.container_regfrm_container_parent_child input[name="homeaddrs"] {
+  /* //background-color: black; */
+  width: 94%;
+  display: block;
+  padding: 0.5%;
+  margin: 2%;
+  color: rgb(117, 117, 117);
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 2.1vh;
+}
+
+.container_regfrm_container_parent_child input[name="officeaddrs"] {
+  /* //background-color: black; */
+  width: 94%;
+  display: block;
+  padding: 0.5%;
+  margin: 2%;
+  color: rgb(117, 117, 117);
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 2.1vh;
+}
+
+.container_regfrm_container_parent_child input[type="submit"] {
+  width: 12%;
+  color: white;
+  font-size: 3vh;
+  background-color: #083CA2;
+  border-radius: 5px;
+  border: 0px;
+  display: block;
+  margin: 1% auto;
+  padding: 0.5%;
+}
+
+.container_regfrm_container_parent_child input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgba(11, 30, 89, 0.7);
+}
